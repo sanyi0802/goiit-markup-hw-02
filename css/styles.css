@@ -1,0 +1,210 @@
+/*declaracion de los colores*/
+:root {
+  --resaltado: #2196f3;
+  --texto: #212121;
+  --simple: #757575;
+}
+/*estilos generales*/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: var(--simple);
+}
+.header-logo,
+.logo-footer,
+.nav-list-item,
+.list-contact-item,
+.list-item-footer {
+  text-decoration: none;
+}
+.navigation-list,
+.list-contact,
+.main-list-descripcion,
+.main-list-services,
+.main-list-team,
+.list-footer,
+.list-portafolio-products,
+.list-product {
+  list-style: none;
+  border: none;
+}
+/*estilos de la barra de navegacio*/
+.header-logo,
+.logo-footer {
+  color: var(--resaltado);
+  text-align: right;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.nav-list-item {
+  color: #212121;
+  font-style: normal;
+  /*font-weight: 500;*/
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.list-contact-item {
+  color: var(--simple);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+/*estilos del banner*/
+.banner {
+  background: #2f303a;
+  text-align: center;
+}
+.title-banner {
+  color: #fff;
+  text-align: center;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px; /* 136.364% */
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+.btn-banner {
+  background-color: var(--resaltado);
+  color: #fff;
+  width: 261px;
+  height: 50px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+}
+/*estilos del main*/
+.title-main-descripcion {
+  color: var(--texto);
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.item-description {
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+/*estilos de la seccion servicios*/
+
+.title-main-services {
+  color: var(--texto);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-align: center;
+}
+/*estilos de la seccion team*/
+.title-main-team {
+  color: var(--texto);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+.title-item-team {
+  color: var(--texto);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+.Professions {
+  color: var(--simple);
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+/*estilos del footer*/
+footer {
+  background: #2f303a;
+}
+.list-item-footer {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+/*portafolio*/
+
+.btn-portafolio-services {
+  border-radius: 4px;
+  background: #f5f4fa;
+  width: 145px;
+  height: 38px;
+  color: var(--texto);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.48px;
+  border: none;
+  outline: none;
+}
+
+.title-item-producto {
+  color: var(--texto);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 200% */
+  letter-spacing: 1.08px;
+}
+.item-categoria {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.48px;
+}
+
+/*animaciones*/
+
+.btn-banner:hover,
+.btn-banner:focus,
+.btn-portafolio-services:hover,
+.btn-portafolio-services:focus {
+  background: var(--resaltado);
+  color: #fff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08),
+    0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus,
+.list-contact-item:hover,
+.list-contact-item:focus {
+  color: var(--resaltado);
+}
+
+.list-item-footer:hover,
+.list-item-footer:focus {
+  color: #fff;
+}
+
+.title-main-descripcion:hover,
+.title-main-descripcion:focus {
+  color: var(--simple);
+}
+
+.navigation-list {
+  font-weight: bold;
+}
